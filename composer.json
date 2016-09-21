@@ -1,5 +1,5 @@
 {
-  "name": "drupal/image_twig_extension",
+  "name": "madalinignisca/image_twig_extension",
   "type": "drupal-module",
   "description": "Offers a twig template tag to render an image by offering the Fid",
   "keywords": ["Drupal"],
