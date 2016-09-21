@@ -1,0 +1,7 @@
+name: Image Twig Extension
+type: module
+description: Offers a twig template tag to render an image by offering the Fid
+core: 8.x
+package: Twig Extensions
+dependencies:
+  - image

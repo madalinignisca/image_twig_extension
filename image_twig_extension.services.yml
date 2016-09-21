@@ -1,0 +1,6 @@
+services:
+  image_twig_extension.twig.extension:
+    class: Drupal\image_twig_extension\TwigExtension\Images
+    arguments: ["@renderer"]
+    tags:
+      - { name: twig.extension }

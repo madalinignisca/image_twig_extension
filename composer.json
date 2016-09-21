@@ -1,0 +1,14 @@
+{
+  "name": "drupal/image_twig_extension",
+  "type": "drupal-module",
+  "description": "Offers a twig template tag to render an image by offering the Fid",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/image_twig_extension",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/image_twig_extension",
+    "source": "http://cgit.drupalcode.org/image_twig_extension"
+  },
+  "require": { }
+}

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains image_twig_extension.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function image_twig_extension_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the image_twig_extension module.
+    case 'help.page.image_twig_extension':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Offers a twig template tag to render an image by offering the Fid') . '</p>';
+      return $output;
+
+    default:
+  }
+}
